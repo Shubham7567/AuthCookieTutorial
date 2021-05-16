@@ -1,0 +1,23 @@
+﻿@ViewData{ 
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <form method="post">
+        <div class="card-header bg-white">
+            <h2 class="card-title">Login</h2>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input type="text" class="form-control" name="txtUserName" placeholder="Username" />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="txtPassword" placeholder="Password" />
+            </div>
+        </div>
+        <div class="card-footer bg-white">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </form>
+</div>
